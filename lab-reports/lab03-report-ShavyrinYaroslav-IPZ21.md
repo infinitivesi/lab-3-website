@@ -87,6 +87,7 @@ def about():
 ```
 
 ### Базовий шаблон
+```
 
 <!DOCTYPE html>
 <html lang="uk">
