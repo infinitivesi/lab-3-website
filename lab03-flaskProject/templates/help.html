@@ -1,0 +1,29 @@
+<html>
+
+{% extends "base.html" %} {% block title %}Зворотній звязок{% endblock %} {% block
+content %}
+<h1 class="text-3xl font-bold mb-4">Зворотній звязок</h1>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div>
+        <p class="text-2xl">
+            Номер телефону - 095-123-12-23 <br> <br>
+
+            Телеграм канал - tuzikpuzik <br> <br>
+
+            Інстаграм - tuzik.puzik <br> <br>
+
+            Youtube - tuziki.puzik
+        </p>
+    </div>
+
+    <div>
+        <img
+            src="{{ url_for('static', filename='images.jpg') }}"
+            alt="Placeholder"
+            class="w-full rounded-lg shadow-md"
+        />
+    </div>
+</div>
+{% endblock %}
+
+</html>
